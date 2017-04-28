@@ -24,7 +24,7 @@ class Quiz
 		if @q4 == "The human"
 			$score = $score + 1
 		end
-		if @q5 == "none of the above"
+		if @q5 == "none of the below"
 			$score = $score + 1
 		end
 		return $score
